@@ -4,11 +4,11 @@
 
 ### luna是个啥？
 别着急，慢慢看。luna不止是vue-loader的封装，同时也干了很多别的事。下面是使用luna开发的组件的目录。
-```
-├── bootstrap //启动器相关
-│   ├── basic.js //包含vuejs及组件标识
-│   └── index.js //启动器
-└── components //组件文件夹
+```bash
+├── bootstrap #启动器相关
+│   ├── basic.js #包含vuejs及组件标识
+│   └── index.js #启动器
+└── components #组件文件夹
     ├── test-title
     │   ├── index.css
     │   └── index.js
@@ -48,7 +48,7 @@
 ```bash
 npm install -g luna-command
 ```
-安装完之后，会多一个`luna`命令，随便模块被注册了，还好。命令名字我们可以自己定义。
+安装完之后，会多一个`luna`命令，虽然模块被注册了，还好。命令名字我们可以自己定义。
 ```bash
 luna init testProject #初始化一个项目
 
