@@ -1,0 +1,23 @@
+{
+  "name": "luna-command",
+  "version": "0.1.5",
+  "description": "For luna development , use Vuejs component",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel -d bin/ src/",
+    "prepublish": "npm run compile",
+    "start": "npm run compile -- --watch"
+  },
+  "author": "mochen <imochen@163.com>",
+  "license": "MIT",
+  "bin": {
+    "luna": "./index.js"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "babel": "^4.6.0"
+  }
+}
